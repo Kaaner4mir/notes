@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exercise 2</title>
+</head>
+<body>
+
+      <!-- 
+    cellpadding: hücrelerin büyüklüğünü ayarlar.
+    cellspacing: hücre boşluklarını ayarlar.
+    coldspan: satır birleştirmesi yapar.
+    rowspan: sütun birleştirmesi yapar.
+ -->
+    
+    <table border="1" width="400" height="200" cellspacing="5" cellpadding="10" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <thead>
+            <th>By Years</th>
+            <th colspan="2">2005</th>
+            <th colspan="2">2006</th>
+        </thead>
+        <tr>
+            <th bgcolor="green">SCI</th>
+            <td>250</td>
+            <td>120</td>
+            <td>100</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <th>SS</th>
+            <td>36</td>
+            <td rowspan="2" bgcolor="pink">147</td>
+            <td>180</td>
+            <td rowspan="2">85</td>
+        </tr>
+        <tr>
+            <th>EA</th>
+            <td>125</td>
+            <td>160</td>
+        </tr>
+    </table>
+</body>
+</html>
